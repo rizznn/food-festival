@@ -2,7 +2,7 @@
   "name": "food-festival",
   "version": "1.0.0",
   "description": "This is an app for an upcoming three-day food event",
-  "main": "index.js",
+  "main": "service-worker.js",
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
@@ -25,12 +25,14 @@
     "webpack": "^5.52.1",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.2.1"
+    "webpack-dev-server": "^4.2.1",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.10.1",
     "bootstrap": "^5.1.1",
     "image-webpack-loader": "^7.0.1",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
