@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "analyze": "webpack --profile --json > stats.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/rizznn/food-festival#readme",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.52.1",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.8.0"
@@ -27,6 +30,7 @@
     "@popperjs/core": "^2.10.1",
     "bootstrap": "^5.1.1",
     "jQuery": "^1.7.4",
+    "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
   }
 }
